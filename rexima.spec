@@ -1,12 +1,12 @@
 Summary:	A curses-based (and command-line) mixer for Linux
 Summary(pl):	Mikser dla Linuksa oparty na bibliotece ncurses
 Name:		rexima
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://metalab.unc.edu/pub/Linux/apps/sound/mixers/%{name}-%{version}.tar.gz
-# Source0-md5:	6b315504d5117fadcb6d94e16943d878
+# Source0-md5:	333a4db26409b9cca9b9e96ddf42f44c
 BuildRequires:	ncurses-devel >= 5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
