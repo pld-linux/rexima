@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://metalab.unc.edu/pub/Linux/apps/sound/mixers/%{name}-%{version}.tar.gz
-BuildRequires:  ncurses-devel >= 5.0
+BuildRequires:	ncurses-devel >= 5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -34,15 +34,16 @@ ka¿dym terminalu o rozmiarze co najmniej 80x24.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-install rexima		$RPM_BUILD_ROOT%{_bindir}
-install rexima.1	$RPM_BUILD_ROOT%{_mandir}/man1
-gzip -9nf {COPYING,ChangeLog,NEWS,README}
+install rexima $RPM_BUILD_ROOT%{_bindir}
+install rexima.1 $RPM_BUILD_ROOT%{_mandir}/man1
+
+gzip -9nf ChangeLog NEWS README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc *.gz
 %attr(755,root,root) %{_bindir}/rexima
 %{_mandir}/man?/*
-%doc *.gz
