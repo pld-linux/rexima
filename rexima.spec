@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://metalab.unc.edu/pub/Linux/apps/sound/mixers/%{name}-%{version}.tar.gz
 # Source0-md5:	333a4db26409b9cca9b9e96ddf42f44c
+URL:		http://rus.members.beeb.net/rexima.html
 BuildRequires:	ncurses-devel >= 5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,7 +22,7 @@ least 80x24.
 
 %description -l pl
 Rexima to oparty na bibliotece ncurses interaktywny mikser. Mo¿e byæ
-równie¿ z linii poleceñ. Jest to prosta, rozs±dna implementacja.
+u¿ywany równie¿ z linii poleceñ. Jest to prosta, rozs±dna implementacja.
 Oprócz suwaków pokazuje te¿ ustawione warto¶ci. Powinien dzia³aæ na
 ka¿dym terminalu o rozmiarze co najmniej 80x24.
 
