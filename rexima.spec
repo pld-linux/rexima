@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://metalab.unc.edu/pub/Linux/apps/sound/mixers/%{name}-%{version}.tar.gz
+# Source0-md5:	6b315504d5117fadcb6d94e16943d878
 BuildRequires:	ncurses-devel >= 5.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
