@@ -22,9 +22,9 @@ least 80x24.
 
 %description -l pl
 Rexima to oparty na bibliotece ncurses interaktywny mikser. Mo¿e byæ
-u¿ywany równie¿ z linii poleceñ. Jest to prosta, rozs±dna implementacja.
-Oprócz suwaków pokazuje te¿ ustawione warto¶ci. Powinien dzia³aæ na
-ka¿dym terminalu o rozmiarze co najmniej 80x24.
+u¿ywany równie¿ z linii poleceñ. Jest to prosta, rozs±dna
+implementacja. Oprócz suwaków pokazuje te¿ ustawione warto¶ci.
+Powinien dzia³aæ na ka¿dym terminalu o rozmiarze co najmniej 80x24.
 
 %prep
 %setup -q
