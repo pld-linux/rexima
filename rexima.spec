@@ -30,7 +30,7 @@ Powinien dzia³aæ na ka¿dym terminalu o rozmiarze co najmniej 80x24.
 %setup -q
 
 %build
-%{__make} CC="%{__cc} %{rpmcflags} -Wall -I%{_includedir}/ncurses"
+%{__make} CC="%{__cc} %{rpmcflags} -Wall -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
