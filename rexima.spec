@@ -1,5 +1,5 @@
 Summary:	A curses-based (and command-line) mixer for Linux
-Summary(pl.UTF-8):   Mikser dla Linuksa oparty na bibliotece ncurses
+Summary(pl.UTF-8):	Mikser dla Linuksa oparty na bibliotece ncurses
 Name:		rexima
 Version:	1.4
 Release:	1
