@@ -1,5 +1,5 @@
 Summary:	A curses-based (and command-line) mixer for Linux
-Summary(pl):	Mikser dla Linuksa oparty na bibliotece ncurses
+Summary(pl.UTF-8):   Mikser dla Linuksa oparty na bibliotece ncurses
 Name:		rexima
 Version:	1.4
 Release:	1
@@ -20,11 +20,11 @@ level readout (as well as the sliders), unlike most interactive mixers
 I've used. It should work on any terminal with a screen size of at
 least 80x24.
 
-%description -l pl
-Rexima to oparty na bibliotece ncurses interaktywny mikser. Mo¿e byæ
-u¿ywany równie¿ z linii poleceñ. Jest to prosta, rozs±dna
-implementacja. Oprócz suwaków pokazuje te¿ ustawione warto¶ci.
-Powinien dzia³aæ na ka¿dym terminalu o rozmiarze co najmniej 80x24.
+%description -l pl.UTF-8
+Rexima to oparty na bibliotece ncurses interaktywny mikser. MoÅ¼e byÄ‡
+uÅ¼ywany rÃ³wnieÅ¼ z linii poleceÅ„. Jest to prosta, rozsÄ…dna
+implementacja. OprÃ³cz suwakÃ³w pokazuje teÅ¼ ustawione wartoÅ›ci.
+Powinien dziaÅ‚aÄ‡ na kaÅ¼dym terminalu o rozmiarze co najmniej 80x24.
 
 %prep
 %setup -q
